@@ -1,0 +1,142 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-cyrillic-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v30-latin-900.woff2") format("woff2");
+}
+
+:root {
+  --white: #ffffff;
+  --light-blue: #2b7fff;
+  --dark-blue: #011c44;
+}
+
+/* Base */
+body {
+  color: #011c44;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+address {
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+}
+h2 {
+  font-family: "Play";
+}
+
+/* Button */
+.button {
+  color: var(--white);
+  font-weight: 600;
+  background-color: var(--light-blue);
+  border: 2px solid var(--light-blue);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--dark-blue);
+}
+
+.under-button {
+  color: #4a4a4a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+/* Link */
+.link {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: var(--light-blue);
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--light-blue);
+  font-family: "Play";
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+/* Why us section */
+.section-title {
+  font-family: "Play";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.section-title .accent {
+  color: var(--light-blue);
+}
+
+.list-text {
+  color: #000000;
+  line-height: 1.3;
+}
+
+/* About us section */
+.about-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.about-text .brand {
+  font-weight: 600;
+}
+
+/* Footer */
+.link-footer{
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+}
+.link-footer:hover {
+  color: var(--light-blue);
+  font-weight: 700;
+}
+.address-link {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.address-copyright {
+  color: #747272;
+  font-size: 14px;
+}
+.footer {
+  background-color: var(--dark-blue);
+}
